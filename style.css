@@ -1,0 +1,51 @@
+body{
+    background-color: #00f2ff;
+    font-family: 'Odibee Sans', cursive;
+    color: #3f3f3f;
+
+    margin: 0;
+    padding-top: 5rem;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#instruction{
+  min-height: 9rem;
+}
+
+
+#circle{
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-color:aqua;
+  box-shadow: 5px 2px 50px 2px #01b5be;
+  margin-bottom: 20px;
+}
+
+#circle:hover {
+  width: 190px;
+  height: 190px;
+
+  box-shadow: 5px 2px 40px 2px #01b5be;
+
+}
+
+.num_input{
+  border: none;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
